@@ -10,13 +10,10 @@ function Hero({}: Props) {
   const src ='https://bit.ly/3IgkwsX'
     const [text, count] = useTypewriter({
         words: [
-        `With every end, comes a new beginning.`,
-        'May God 🙏 fill this New Year with great memories, ', 
-        'Continue to pursue your dreams and aspirations.',
-        'If it had not been the Lord who was on our side,',
-        'now may Israel say 🙏 Psalms 124',
-        'Wishing you ❣️ a prosperous 2023',
-        'Yours truly SIRVIC',
+        'Hello,',
+        'My name is Victor',
+        'A RF & MW Engineer',
+        'And also a certified Software Engineer',
     ],
     loop: true,
     delaySpeed: 2000,
@@ -24,23 +21,14 @@ function Hero({}: Props) {
   return (
     <div  className='h-screen flex flex-col space-y-8 items-center justify-center text-center
     overflow-hidden'>
-        {/* <Image 
+        <Image 
         loading='lazy'
         className='relative rounded-full h-32 w-32 mx-auto object-fit'
-        src='http://bit.ly/3jz6Fnf'
+        src='http://bit.ly/3GGt5Ml'
         width={100}
         height={100}
          alt=''
-         /> */}
-      <video 
-      loop={true}
-      width="100%"
-      muted={true}
-      autoPlay={true}
-      className='relative rounded-full h-32 w-32 mx-auto object-fit'
-       >
-      <source src={src} type="video/mp4" />
-    </video>
+         />
         <div className='z-20'>
             <h2 className='text-sm uppercase text-gray-500
             pb-2 tracking-[15px]'>RF & MW ENGINEER</h2>
