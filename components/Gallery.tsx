@@ -15,7 +15,7 @@ function Gallery({}: Props) {
           space-y-5  md:p-44 p-20 h-screen'>
             <Image
             className='relative rounded-sm h-32 w-32 mx-auto object-fit'
-            src='https://bit.ly/3FjYoMB'
+            src='http://bit.ly/3GGt5Ml'
             width={100}
             height={100}
              alt=''
