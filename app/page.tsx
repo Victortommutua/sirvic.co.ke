@@ -1,5 +1,6 @@
 /* eslint-disable @next/next/no-img-element */
 'use client'
+import { Analytics } from '@vercel/analytics/react';
 import Head from 'next/head'
 import Image from 'next/image'
 import Link from 'next/link'
@@ -22,6 +23,7 @@ export default function Home() {
         <link rel="icon" href="https://bit.ly/3AZ3Phj" />
       </Head>
       {/*header */}
+      <Analytics />
       <Header/>
       {/*hero */}
       <section id='hero' className='snap-start'>
